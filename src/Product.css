@@ -10,6 +10,10 @@
   min-width: 100px;
   background-color: white;
   z-index: 1;
+  transition: box-shadow .3s;
+}
+.product:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1), 0 6px 20px 0 rgba(0, 0, 0, 0.3);;
 }
 .product_img {
   max-height: 200px;
@@ -26,7 +30,7 @@
   margin-top: 5px;
 }
 .product_rating {
-    display: flex;
+  display: flex;
 }
 .product_button {
   background-color: #f0c14b;
